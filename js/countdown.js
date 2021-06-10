@@ -37,12 +37,15 @@ function ir(){
     var o="ANY SARAI";
     var l="Any Sarai";
     var b="Any sarai";
+
     var n=2002;
+
     var y="sandia";
     var c="Sandia";
     var d="SANDIA";
+
     var e="11/04/21";
-    if(document.form.login.value==a || document.form.login.value==o || document.form.login.value==l  || document.form.login.value==b && document.form.nacimiento.value==n && document.form.password.value==y || document.form.password.value==c || document.form.password.value==d  && document.form.reencuentro.value==e){
+    if((document.form.login.value==a || document.form.login.value==o || document.form.login.value==l  || document.form.login.value==b) && document.form.nacimiento.value==n && (document.form.password.value==y || document.form.password.value==c || document.form.password.value==d) && document.form.reencuentro.value==e){
         alert("HOLA MI QUERIDA ANY SARAI quieres entrar?");
         window.location="deAny.html";
     }
