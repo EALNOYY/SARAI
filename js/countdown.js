@@ -52,4 +52,6 @@ function ir(){
     else{
         alert("ingrese datos correctos");
     }
+	form.reset();
 }
+
